@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+body {
+    scroll-behavior: smooth;
+    font-family: Josefin Sans;
+}
+button,
+option {
+    font-family: Josefin Sans;
+    text-transform: capitalize;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.hide::-webkit-scrollbar {
+    display: none;
+}
+.hide {
+    scrollbar-width: none;
+}
